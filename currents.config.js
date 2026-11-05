@@ -4,7 +4,7 @@
 /** @type {Partial<import('@currents/playwright').CurrentsConfig>} */
 const config = {
   projectId: process.env.CURRENTS_PROJECT_ID,
-  consoleOutput: 'detailed',
+  consoleOutput: 'compact',
   outputFile: 'currents-report.json',
 };
 
